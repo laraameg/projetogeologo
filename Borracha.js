@@ -22,7 +22,7 @@ class Borracha{
 			strokeWeight(3);
 			stroke("white")
 			fill("darkblue");
-			ellipseMode(CENTER);
+			ellipseMode(RADIUS);
 			//use ellipse() aqui para desehar a bola de borracha
 			ellipse(0, 0, this.r, this.r);
 			pop();
